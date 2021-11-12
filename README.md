@@ -47,7 +47,7 @@ execution time 0.00000530000000154018 seconds
 Process finished with exit code 0
 ```
 the normal function beats the euclidean function this time
-## another scenario where the GCD is the worst case for the normal algorithm which is 1, here it took the normal function more than 7 whole seconds to find the GCD while it took the Eucildean algortihm 0.00015589999999932047 seconds
+### another scenario where the GCD is the worst case for the normal algorithm which is 1, here it took the normal function more than 7 whole seconds to find the GCD while it took the Eucildean algortihm 0.00015589999999932047 seconds
 ```
 913421643566 134623453
 134623453 1514961
