@@ -7,17 +7,17 @@ def main():
     if num2 > big:
         big = num2
         small = num1
-    gcd = eudi(big, small, factors)
+    gcd = euclidean(big, small, factors)
     print(f'greatest common factor of {big} and {small} is \n{gcd}')
 
 
-def eudi(a, b, factors):
+def euclidean(a, b, factors):
     q = int(a / b)
     r = a - b * q
     if r != 0:
         factors.append(r)
         print(b, r)
-        return eudi(b, r, factors)
+        return euclidean(b, r, factors)
     else:
         return factors[-1]
 
