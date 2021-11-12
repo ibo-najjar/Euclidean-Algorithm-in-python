@@ -1,7 +1,7 @@
 # Euclidean-Algorithm-in-python
 for input:
 > 457896342434 32415312
-output:
+> output:
 ```
 457896342434 32415312
 32415312 30060434
@@ -31,7 +31,7 @@ as we can see for large number the euclidean algorithm is way faster
 but for smaller number inputs:
 for input:
 > 74 22
-output:
+> output:
 ```
 74 22
 22 8
